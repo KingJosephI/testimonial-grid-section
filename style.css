@@ -73,25 +73,39 @@ main {
 .section > :not(.section__card3, .section__card5){
   color: var(--white);
 }
+
+.section__card3 h2, .section__card5 h2{
+  color: var(--very-dark-grayish-blue);
+}
+.section__card3 span, .section__card5 span{
+  color: hsla(217, 19%, 35%, 0.718) !important;
+}
+
+.section__card3 h1, .section__card5 h1 {
+  color: var(--very-dark-blackish-blue);
+} 
+.section__card3 p, .section__card5 p {
+  color: hsla(217, 30%, 14%, 0.70);
+} 
 .section__card1 {
- background-color: var(--moderate-violet);
- background-image: url('./images/bg-pattern-quotation.svg');
- background-repeat: no-repeat;
- background-position: top right 1.5rem;
- /* color: var(--white); */
+  background-color: var(--moderate-violet);
+  background-image: url('./images/bg-pattern-quotation.svg');
+  background-repeat: no-repeat;
+  background-position: top right 1.5rem;
 }
+
 .section__card2 {
-background-color: var(--very-dark-grayish-blue);
+  background-color: var(--very-dark-grayish-blue);
 }
+
 .section__card3 {
-background-color: var(--white);
- 
+  background-color: var(--white);
 }
+
 .section__card4 {
 background-color: var(--very-dark-blackish-blue);
  
 }
 .section__card5 {
-background-color: var(--white);
- 
+  background-color: var(--white);
 }
