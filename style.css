@@ -109,3 +109,10 @@ background-color: var(--very-dark-blackish-blue);
 .section__card5 {
   background-color: var(--white);
 }
+
+.section__card1 img {
+  border: 2px solid#A775F1;
+}
+ .section__card4 img {
+  border: 2px solid#733FC8;
+}
