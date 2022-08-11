@@ -25,3 +25,35 @@ body {
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-size: 13px;
 }
+
+main {
+  margin: 1.8rem;
+}
+
+.section {
+  display: grid;
+  gap: 1.5rem;
+} 
+
+.section__card {
+  max-width: 25.15rem;
+}
+
+.section__card1 {
+ background-color: var(--moderate-violet);
+}
+.section__card2 {
+background-color: var(--very-dark-grayish-blue);
+}
+.section__card3 {
+background-color: var(--white);
+ 
+}
+.section__card4 {
+background-color: var(--very-dark-blackish-blue);
+ 
+}
+.section__card5 {
+background-color: var(--white);
+ 
+}
