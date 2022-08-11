@@ -37,8 +37,9 @@ main {
 
 .section__card {
   max-width: 25.15rem;
+  padding: 2rem;
+  border-radius: 0.6rem;
 }
-
 .section__card1 {
  background-color: var(--moderate-violet);
 }
